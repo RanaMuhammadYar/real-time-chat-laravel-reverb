@@ -53,19 +53,25 @@ This project is built with **Laravel 11**, **PHP 8.2**, and **Node.js 16** to pr
     php artisan key:generate
     ```
 
-7. **Start the development server**:
+7. **Generate application key**:
+
+    ```bash
+    php artisan install:broadcasting
+    ```
+
+8. **Start the development server**:
 
     ```bash
     php artisan serve
     ```
 
-8. **Open a new terminal and run Vite**:
+9. **Open a new terminal and run Vite**:
 
     ```bash
     npm run dev
     ```
 
-9. **Open another terminal and start Reverb**:
+10. **Open another terminal and start Reverb**:
 
     ```bash
     php artisan reverb:start
