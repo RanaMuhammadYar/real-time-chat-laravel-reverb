@@ -53,7 +53,7 @@ This project is built with **Laravel 11**, **PHP 8.2**, and **Node.js 16** to pr
     php artisan key:generate
     ```
 
-7. **Generate application key**:
+7. **Install Reverb**:
 
     ```bash
     php artisan install:broadcasting
